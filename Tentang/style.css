@@ -1,0 +1,94 @@
+body {
+    background-color: #434242;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.animate__animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  .floating-icons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .floating-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .icon {
+    display: inline-block;
+    background-color: #00acee;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .icon i {
+    font-size: 20px;
+  }
+
+  .icon.instagram {
+    background-color: #833AB4;
+  }
+
+  .icon.tiktok {
+    background-color: #000;
+  }
+
+  .icon.whatsapp {
+    background-color: #4AC959;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+
+  canvas {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
