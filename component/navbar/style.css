@@ -1,0 +1,40 @@
+/* Custom CSS for Navbar */
+.navbar {
+    background-color: #FFF7F1; /* Warna latar belakang navbar */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px; /* Jarak dari kanan logo */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Menghapus border dari tombol toggle */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none; /* Menghapus focus outline pada tombol toggle */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks untuk setiap link */
+    margin-right: 10px; /* Jarak antar link */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Warna teks saat dihover */
+    background-color: #1a4d80; /* Warna latar belakang saat dihover */
+  }
+  
+  /* CSS untuk gambar profil */
+  .rounded-circle {
+    border: 2px solid #ffffff; /* Garis tepi gambar */
+  }
+  
+  /* Membuat gambar berada di tengah-tengah navbar */
+  .navbar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
